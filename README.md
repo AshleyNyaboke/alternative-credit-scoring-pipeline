@@ -4,9 +4,9 @@ An end-to-end Machine Learning and Business Intelligence solution designed to as
 ##  Business Case & Context
 Traditional banking credit models rely heavily on formal payslips and collateral, completely locking out the booming **Creative Economy**. This project builds an alternative credit scoring pipeline tailored for financial institutions (like Equity Bank) to safely tap into this multi-billion shilling market while protecting asset quality and mitigating Non-Performing Loans (NPLs).
 
-By leveraging alternative data—such as **production consistency** and **audience traffic growth**—this pipeline automates risk assessment and segments applicants into actionable operational tiers.
+By leveraging alternative data such as **production consistency** and **audience traffic growth**—this pipeline automates risk assessment and segments applicants into actionable operational tiers.
 
----
+
 
 ##  Project Architecture & Pipeline
 The project is split into two distinct, production-ready layers:
@@ -18,6 +18,7 @@ The project is split into two distinct, production-ready layers:
 * **Risk Tiering Logic:** Transformed continuous probability weights into three operational business buckets: `Low Risk (Fast-Track)`, `Medium Risk (Review)`, and `High Risk (Reject)`.
 
 ### 2.  Frontend Executive Dashboard (`02_alternative_credit_scoring_dashboard.pbix`)
+![Executive Risk Dashboard](dashboard_screenshot.png)
 * Ingested the ML-scored pipeline output into **Power BI**.
 * Engineered custom **DAX Measures** to compute key banking metrics dynamically:
   * `Total Applications` (Portfolio size tracking)
