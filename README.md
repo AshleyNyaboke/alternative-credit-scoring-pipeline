@@ -39,4 +39,3 @@ The project is split into two distinct, production-ready layers:
 * **Risk Concentration:** The model safely flagged **25.5%** of applicants as high-risk anomalies, saving the bank from potentially severe NPL exposure.
 * **Automated Efficiency:** Identified **20.32%** of applicants as low-risk candidates eligible for automated mobile disbursement (e.g., instant digital lending integration).
 
-*Developed by Ashley 
